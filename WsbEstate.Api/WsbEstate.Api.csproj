@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>WsbEstate.Api</AssemblyName>
+    <RootNamespace>WsbEstate.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WsbEstate.Model\WsbEstate.Model.csproj" />
+    <ProjectReference Include="..\WsbEstate2.Model\WsbEstate2.Model.csproj" />
+  </ItemGroup>
+
+</Project>
