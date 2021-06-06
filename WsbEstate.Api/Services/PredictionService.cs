@@ -21,6 +21,7 @@ namespace WsbEstate.Api.Services
 
         public ModelOutput Predict(ModelInput data)
         {
+            data.Area = 76f;
             return _engine.Predict(data);
         }
     }
